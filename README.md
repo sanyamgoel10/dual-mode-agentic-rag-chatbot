@@ -1,6 +1,6 @@
 # Dual-Mode Agentic RAG Chatbot
 
-**Live demo:** https://your-app.vercel.app *(update after deployment)*
+**Live demo:** [Vercel App](https://dual-mode-agentic-rag-chatbot.vercel.app/)
 
 A production-grade chatbot that answers questions about a company's knowledge base using two distinct retrieval strategies, autonomously routing between them per question.
 
