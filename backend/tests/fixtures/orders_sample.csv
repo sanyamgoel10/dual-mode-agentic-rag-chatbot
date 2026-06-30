@@ -1,0 +1,6 @@
+order_id,customer,product,amount,status,order_date
+ORD-0001,Alice Smith,Laptop Stand,1899,delivered,2026-05-10
+ORD-0002,Bob Jones,USB-C Hub,7497,pending,2026-05-20
+ORD-0003,Carol White,Mechanical Keyboard,4999,shipped,2026-06-01
+ORD-0004,Alice Smith,Laptop Stand,1899,cancelled,2026-04-15
+ORD-0005,Dave Brown,USB-C Hub,7497,delivered,2026-05-25
