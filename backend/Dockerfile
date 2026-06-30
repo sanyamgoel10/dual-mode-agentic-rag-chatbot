@@ -4,11 +4,12 @@ WORKDIR /app
 
 RUN mkdir -p /app/data
 
-COPY requirements.txt .
+COPY backend/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+COPY backend/ .
+COPY database/ ./database/
 
 EXPOSE 8000
 
-CMD ["sh", "-c", "python startup.py && uvicorn main:app --host 0.0.0.0 --port 8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
